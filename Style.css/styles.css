@@ -1,5 +1,11 @@
+.navbar-toggler-icon {
+  color: rgb(8, 5, 5);
+  background-color: rgb(128, 39, 30);
+}
+
 .nav-item li a{
   color: rgb(35, 38, 73) ;
+  margin: 10px;
 }
 
 .nav-item a:hover {
@@ -13,7 +19,6 @@
 
 .logonegocio {
     display: flex;
-    align-items: initial;
     justify-content:left;
     width: 120px;
     height: 110px;
@@ -21,7 +26,7 @@
 
   .container-fluid{
     justify-content: space-between;
-    background: linear-gradient(135deg, #a3940b55 75%, transparent 5%)
+    background: linear-gradient(135deg, #a3940b55 75%, transparent 5%);
   }
 
   .carousel-inner img {
